@@ -2,7 +2,7 @@
 <p>It's a snake game in the windows console.</p>
 <p>I made this for fun about 2 years ago.</p>
 
-Have fun!</p>
+<p>Have fun!</p>
 
 
 #Build
