@@ -1,5 +1,9 @@
 # ConsoleSnake
 It's a snake game in the windows console.
+I made this for fun about 2 years ago.
+
+Have fun!
+
 
 #Build
 
