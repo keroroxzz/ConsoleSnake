@@ -110,7 +110,7 @@ int main()
 
 	thread keyT(get_key);
 
-	text_anime("Select by Up and Down, ENTER to skip or select.", "text_m", 25, 40, 15);
+	text_anime("%15%Select by Up and Down, ENTER to skip or select.", "text_m", 25, 40, 15);
 	text_anime("Hi, there.", "text_m", 25, 40, 15);
 	text_anime("You can control the snake with arrow key.", "text_m", 25, 40, 15);
 	text_anime("The snake is white.~%255%            ", "text_m", 25, 40, 15);
@@ -120,7 +120,7 @@ int main()
 	text_anime("When it becomes %110%  %15%, it's going to be gone.", "text_m", 25, 40, 15);
 	text_anime("%215%  %15% is a pill, which shrinks the snake by 5.", "text_m", 25, 40, 15);
 	text_anime("When it becomes %185%  %15%, it'll disappear.", "text_m", 25, 40, 15);
-	text_anime("Something that looks like a disappearing food, %87%  %15%, is the bad apple, which speeds up the game.", "text_m", 25, 40, 15);
+	text_anime("%87%  %15%, is the bad apple, which speeds up the game.", "text_m", 25, 40, 15);
 	text_anime("The special items would appear after a while.", "text_m", 25, 40, 15);
 	text_anime("Select the game mode.", "text_m", 25, 40, 15);
 
@@ -253,7 +253,7 @@ void screen_show(int X, int Y)
 	SetConsoleTextAttribute(hConsole, 15);
 	COORD cur = { X , Y + width + 1 };
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), cur);
-	cout << "請按上下左右開始...";
+	cout << "Press any arrow key to start...";
 }
 
 void screen_update()
