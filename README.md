@@ -4,7 +4,7 @@
 
 <p>Have fun!</p>
 
-(https://youtu.be/rHtT8e5DygA)
+[![Video](https://img.youtube.com/vi/rHtT8e5DygA/0.jpg)](https://www.youtube.com/watch?v=rHtT8e5DygA)
 
 #Build
 
